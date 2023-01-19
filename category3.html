@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.ico">
+  <title>Fiszki | Skąd jesteś?</title>
+</head>
+<body>
+  <div class="main-container">
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <h1><a href="./index.html">Fiszka</a><h1>
+        </div>
+        <nav class="navbar">
+          <button class="hamburger-btn">Kategorie</button>
+          <div class="category-menu">
+            <ul>
+              <li><a href="./category1.html">Kim Jesteś?</a></li>
+              <li><a href="./category2.html">Jak się masz?</a></li>
+              <li><a href="./category3.html">Skąd jesteś?</a></li>
+              <li><a href="./category4.html">Czy mówisz po niemiecku?</a></li>
+              <li><a href="./category5.html">Ile masz lat?</a></li>
+              <li><a href="./category6.html">Co to jest?</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+    <div class="category container">
+      <p>Skąd jesteś?</p>
+      <button class="hide show">
+        <i class="fa-solid fa-chevron-up fa-2x"></i>
+      </button>
+    </div>
+
+    <main class="cards">
+      <section class="container">
+        <!-- 1 -->
+        <div class="card active">
+          <div class="actv-left noshow">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>Angilia</h3>
+            <p>- Jestem z Anglii.</p>
+          </div>
+
+          <div class="card-content de noshow">
+            <h3>England</h3>
+            <p>- Ich bin aus England.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content  pl">
+            <h3>Polska</h3>
+            <p>- Jestem z Polski.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>Polen</h3>
+            <p>- Ich bin aus Polen.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>z</h3>
+            <p>- Jestem z...</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>aus</h3>
+            <p>- Ich bin aus...</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>Skąd?</h3>
+            <p>- Skąd jesteś?</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>Woher?</h3>
+            <p>- Woher bist du?</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>Szwajcaria</h3>
+            <p>Paulina jest ze Szwajcarii</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3><span class="mark">die</span> Schweiz</h3>
+            <p>Paulina ist aus der Schweiz.</p>
+          </div>
+
+          <div class="actv-right noshow">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Dawid Krajewski</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/dawid-krajewski/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Vernli" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+

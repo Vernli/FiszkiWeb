@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 768px)">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.ico">
+  <title>Fiszki | Kim jesteś?</title>
+</head>
+<body>
+  <div class="main-container">
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <h1><a href="./index.html">Fiszka</a><h1>
+        </div>
+        <nav class="navbar">
+          <button class="hamburger-btn">Kategorie</button>
+          <div class="category-menu">
+            <ul>
+              <li><a href="./category1.html">Kim Jesteś?</a></li>
+              <li><a href="./category2.html">Jak się masz?</a></li>
+              <li><a href="./category3.html">Skąd jesteś?</a></li>
+              <li><a href="./category4.html">Czy mówisz po niemiecku?</a></li>
+              <li><a href="./category5.html">Ile masz lat?</a></li>
+              <li><a href="./category6.html">Co to jest?</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+    <div class="category container">
+      <p>Kim jesteś?</p>
+      <button class="hide show">
+        <i class="fa-solid fa-chevron-up fa-2x"></i>
+      </button>
+    </div>
+
+    <main class="cards">
+      <section class="container">
+        <!-- 1 -->
+        <div class="card active">
+          <div class="actv-left noshow">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>To</h3>
+            <p>- Kto to jest?</p>
+            <p>- To jest Rafał.</p>
+          </div>
+
+          <div class="card-content de noshow">
+            <h3>Das</h3>
+            <p>- Wer ist das?</p>
+            <p>- Das ist Rafał.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content  pl">
+            <h3>Niemiec / Niemka</h3>
+            <h3>Niemcy / Niemki</h3>
+            <p>- (Ty) jesteś Niemką.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3><span class="mark">der</span> Deutsche / <span class="mark">die</span> Deutsche</h3>
+            <h3><span class="mark">die</span> Deutschen / <span class="mark">die</span> Deustchen</h3>
+            <p>- Du bist Deutsche.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>Polak / Polka</h3>
+            <h3>Polacy / Polki</h3>
+            <p>- (Ja) jestem Polakiem.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3><span class="mark">der</span> Pole / <span class="mark">die</span> Polin</h3>
+            <h3><span class="mark">die</span> Polen / <span class="mark">die</span> Polinnen</h3>
+            <p>- Ich bin Pole.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>nie</h3>
+            <p>- Czy ona jest Polką?</p>
+            <p>- Nie, ona jest Niemką.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>nein</h3>
+            <p>- Ist sie Polin?</p>
+            <p>- Nein, sie ist Deutsche.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>być</h3>
+            <p>ja - jestem</p>
+            <p>ty - jesteś</p>
+            <p>on/ona/ono - jest</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>sein</h3>
+            <p>ich - <span class="mark">bin</span><p>
+            <p>du - <span class="mark">bist</span></p>
+            <p>er/sie/es - <span class="mark">ist</span></p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>ja</h3>
+            <p>- (Ja) jestem Dawid.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>ich</h3>
+            <p>- Ich bin Dawid.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>ty</h3>
+            <p>- (Ty) jesteś Klaudia.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>du</h3>
+            <p>- Du bist Claudia.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>On</h3>
+            <p>- On jest Niemcem.</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>er</h3>
+            <p>- Er ist Deutscher.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 9 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>ona</h3>
+            <p>- Czy ona jest Niemką?</p>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>sie</h3>
+            <p>- Ist sie Deutsche.</p>
+          </div>
+
+          <div class="actv-right">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+        <!-- 10 -->
+        <div class="card">
+          <div class="actv-left">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="card-content pl">
+            <h3>ono</h3>
+          </div>
+
+          <div class="card-content de noshow ">
+            <h3>es</h3>
+          </div>
+
+          <div class="actv-right noshow">
+            <button class="next-btn">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </button>
+          </div>
+
+          <div class="actv-rotate">
+            <i class="fa-solid fa-arrow-rotate-right fa-2x"></i>
+            <input type="checkbox" class="rotate-card hidden-checkbox">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Dawid Krajewski</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/dawid-krajewski/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Vernli" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
